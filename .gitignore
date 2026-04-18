@@ -7,11 +7,8 @@ __pycache__/
 venv/
 .env/
 
-# Data (optional, meist sinnvoll)
-data/
-
 # Jupyter
-data/.ipynb_checkpoints/
+.ipynb_checkpoints/
 
 # PyCharm
 .idea/
