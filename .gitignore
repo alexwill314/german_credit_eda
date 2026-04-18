@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Data (optional, meist sinnvoll)
+data/
+
+# Jupyter
+data/.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
