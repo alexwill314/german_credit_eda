@@ -13,45 +13,63 @@ This project explores the **German Credit Dataset** using exploratory data analy
 
 
 ## Dataset
-German Credit Risk Dataset taken from:  
-https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
+The analysis uses the corrected South German Credit dataset to avoid known 
+inconsistencies in the original UCI German Credit dataset.
+A custom parser is used to transform the original codebook into a structured mapping table. 
+This enables reproducible renaming and categorical decoding of the dataset.
 
-Original data can be found here:  
-https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+The original data can be found here:
+https://archive.ics.uci.edu/dataset/522/south+german+credit
+
 
 Key feature groups include:
 - Loan characteristics (amount, duration, purpose)  
 - Financial status (savings, checking account status)  
 - Personal attributes (age, employment, housing)  
-- Credit history information  
+- Credit history information
 
-The dataset consist of the following columns:  
-Age (numeric)  
-Sex (text: male, female)  
-Job (numeric: 0 - unskilled and non-resident, 1 - unskilled and resident, 2 - skilled, 3 - highly skilled)  
-Housing (text: own, rent, or free)  
-Saving accounts (text - little, moderate, quite rich, rich)  
-Checking account (numeric, in DM - Deutsch Mark)  
-Credit amount (numeric, in DM)  
-Duration (numeric, in month)  
-Purpose (text: car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, vacation/others)  
-Risk (text: good, bad)
 
+The dataset consist of the following columns:
+
+
+| Name                    | Description                                                              | Type        |
+|-------------------------|--------------------------------------------------------------------------|-------------|
+| status                  | Status of existing checking account in DM (Deutschen Mark)               | categorical |
+| duration                | Duration in months for the loan/credit                                   | numerical   |
+| credit_history          | Credit history of the applicant                                          | categorical |
+| purpose                 | Purpose of the credit                                                    | categorical |
+| amount                  | Credit amount of the loan                                                | numerical   |
+| savings                 | Status of savings account in DM (Deutschen Mark)                         | categorical |
+| employment_duration     | Present employment since                                                 | categorical |
+| installment_rate        | Installment rate in percentage of disposable income                      | categorical |
+| personal_status_sex     | Categories with personal status and sex                                  | categorical |
+| other_debtors           | Other debtors / guarantors                                               | categorical |
+| present_residence       | Present residence since                                                  | categorical |
+| property                | Possible collateral for loan                                             | categorical |
+| age                     | Age in years                                                             | numerical   |
+| other_installment_plans | Other installment plans                                                  | categorical |
+| housing                 | Indicator of the current housing (rent, own or for free)                 | categorical |
+| number_credits          | Number of existing credits at this bank                                  | numerical   |
+| job                     | Categories of job                                                        | categorical |
+| people_liable           | Number of people being liable to provide maintenance for                 | categorical |
+| telephone               | Flag indicating if the customer has a telephone registered in their name | categorical |
+| foreign_worker          | Flag indicating foreign workers                                          | categorical |
+| credit_risk             | Good = customer properly paid the loan, bad otherwise                    | categorical |
 ## Methodology
 
 The analysis is structured into:
 
 - Data overview (structure, types, missing values)  
-- Target variable distribution  
-- Univariate feature analysis  
+- Univariate feature analysis
 - Bivariate analysis vs. credit risk  
 - Segment-based risk insights  
 
 ## Tools
 
 - Python  
-- Pandas  
+- Pandas  / numpy
 - Matplotlib / Seaborn  
+- scipy
 - Jupyter Notebook  
 
 ## Note
