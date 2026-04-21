@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project explores the **German Credit Dataset** using exploratory data analysis (EDA) to understand patterns in borrower characteristics and their relationship to credit risk. The analysis is framed in a banking context and focuses on interpretability and business relevance.
+This project explores the **German Credit Dataset** using exploratory data analysis (EDA) to understand 
+patterns in borrower characteristics and their relationship to credit risk. 
+The analysis is framed in a banking context and focuses on interpretability and business relevance.
 
 ## Objective
 

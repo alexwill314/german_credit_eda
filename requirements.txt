@@ -1,6 +1,6 @@
 pandas
 numpy
-scipy.stats
-matplotlib.pyplot
+scipy
+matplotlib
 seaborn
 jupyter
