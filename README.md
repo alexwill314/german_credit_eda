@@ -13,12 +13,6 @@ The analysis is framed in a banking context and focuses on interpretability and 
 - Analyze relationships between customer features and credit outcomes  
 - Derive simple, interpretable insights relevant to credit risk analysis 
 
-## Sample Plots from the Analysis
-![status_vs_risk.png](images/status_vs_risk.png)
-
-![effect_size.png](images/effect_size.png)
-
-
 ## Dataset
 The analysis uses the corrected South German Credit dataset to avoid known 
 inconsistencies in the original UCI German Credit dataset.
@@ -70,6 +64,14 @@ The analysis is structured into:
 - Univariate feature analysis
 - Bivariate analysis vs. credit risk  
 - Segment-based risk insights  
+
+## Sample Plots from the Analysis
+![status_vs_risk.png](images/status_vs_risk.png)
+
+![effect_size.png](images/effect_size.png)
+
+![pairplot.png](images/pairplot.png)
+
 
 ## Tools
 
