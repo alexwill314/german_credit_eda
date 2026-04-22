@@ -14,10 +14,9 @@ The analysis is framed in a banking context and focuses on interpretability and 
 - Derive simple, interpretable insights relevant to credit risk analysis 
 
 ## Sample Plots from the Analysis
-![img.png](img.png)
-![img_1.png](img_1.png)
+![effect_size.png](images/effect_size.png)
 
-
+![status_vs_risk.png](images/status_vs_risk.png)
 
 ## Dataset
 The analysis uses the corrected South German Credit dataset to avoid known 
