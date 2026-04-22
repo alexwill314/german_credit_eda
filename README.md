@@ -66,11 +66,11 @@ The analysis is structured into:
 - Segment-based risk insights  
 
 ## Sample Plots from the Analysis
+![pairplot.png](images/pairplot.png)
+
 ![status_vs_risk.png](images/status_vs_risk.png)
 
 ![effect_size.png](images/effect_size.png)
-
-![pairplot.png](images/pairplot.png)
 
 
 ## Tools
