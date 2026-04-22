@@ -11,7 +11,12 @@ The analysis is framed in a banking context and focuses on interpretability and 
 - Explore structure and quality of credit data  
 - Identify differences between good and bad credit risk profiles  
 - Analyze relationships between customer features and credit outcomes  
-- Derive simple, interpretable insights relevant to credit risk analysis  
+- Derive simple, interpretable insights relevant to credit risk analysis 
+
+## Sample Plots from the Analysis
+![img.png](img.png)
+![img_1.png](img_1.png)
+
 
 
 ## Dataset
