@@ -1,9 +1,11 @@
-# German Credit Data – EDA Project
+# German Credit Data – EDA & Regression Model
 
 ## Overview
 
 This project explores the **German Credit Dataset** using exploratory data analysis (EDA) to understand 
-patterns in borrower characteristics and their relationship to credit risk. 
+patterns in borrower characteristics and their relationship to credit risk.
+Using the insights gained from the EDA, we construct a logistic regression model which uses Weight of Evidence (WoE)
+Encoding for credit default classification. The model is tuned using an asymmetric cost method.
 The analysis is framed in a banking context and focuses on interpretability and business relevance.
 
 ## Objective
